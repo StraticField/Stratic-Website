@@ -1,0 +1,49 @@
+/* For Contact Form */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form input, form textarea {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input[type="submit"] {
+  background-color: #2e7d32;
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 0.75rem;
+}
+
+form input[type="submit"]:hover {
+  background-color: #1b5e20;
+}
+
+/* For Image Gallery */
+.gallery-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.gallery {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* For Map */
+iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+  border: none;
+}
