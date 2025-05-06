@@ -1,0 +1,21 @@
+<section id="gallery">
+  <h2>Our Work</h2>
+  <div class="gallery">
+    <img src="path_to_image1.jpg" alt="Project 1" class="gallery-image">
+    <img src="path_to_image2.jpg" alt="Project 2" class="gallery-image">
+    <img src="path_to_image3.jpg" alt="Project 3" class="gallery-image">
+  </div>
+</section>
+
+<style>
+  .gallery {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+  .gallery-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+</style>
